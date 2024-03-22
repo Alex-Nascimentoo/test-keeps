@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  max-height: 30px;
+}
+
+progress::-moz-progress-bar,
+progress::-webkit-progress-value
+{
+  background: #FF4A01;
+}
